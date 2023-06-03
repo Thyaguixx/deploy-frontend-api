@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
+
+.botao1{
+    width: 100px;
+    margin-left: 95px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(to left, #de940a, #ff5c21);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.botao2{
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(to left, #de940a, #ff5c21);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.primeiraDiv {
+    position: fixed;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    justify-content: "center";
+    background: white;
+    border-radius: 8px;
+    width: 450px;
+    height: 300px;
+    margin-top: -100px;
+    padding: 20px;
+    animation: dropTop .3s linear;
+}
+
+@keyframes dropTop {
+    0% {
+      transform: translateY(-100%) scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%) scale(1);
+      opacity: 1;
+    }
+}
+
+.header{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.h1 {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+
+.titulo {
+    cursor: pointer;
+    position: absolute;
+    top: 10;
+    right: 10;
+}
+
+/* ORGANIZAÇÃO DOS INPUT */
+.input1{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.input2{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.input3{
+    margin-left: 230px;
+    margin-top: -107px;
+}
+.botao{
+    margin-top: 90px;
+}
