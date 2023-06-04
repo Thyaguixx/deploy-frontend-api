@@ -88,7 +88,7 @@ function EdicaoAdmin() {
       <div className="container-teste">
         <div className="wrap-teste">
           <form className="teste-form" onSubmit={handleSubmit}>
-          <h1 className="h1">Editar informações</h1>
+          <h1 className="h1-edit-admin">Editar informações</h1>
             <div className="wrap-input-teste">
               <input
                 className={nome !== "" ? "has-val input-teste" : "input-teste"}
